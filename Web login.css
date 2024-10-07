@@ -1,3 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("pink-aesthetic-5120x2880-17607.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
 * {
     margin: 0;
     padding: 0;
