@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #571087;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: violet;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-shadow: 2px 2px 4px palevioletred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: violet;
+}
+
+/* Specific styles for login page */
+.login-form .forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+/* Specific styles for sign-up page */
+.sign-up-form .terms {
+    font-size: 0.8rem;
+    color: violet;
+    margin-top: 1rem;
+}
+
+/* Specific styles for forgot-password page */
+.forgot-password-form .instructions {
+    font-size: 0.9rem;
+    color: violet;
+    margin-bottom: 1rem;
+}
+p {
+    color: red;
+}
